@@ -1,0 +1,79 @@
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  text-shadow: 0 0 15px #00f3ff;
+  fill: #00f3ff;
+}
+
+
+.svg-icon path:hover,
+.svg-icon polygon:hover,
+.svg-icon rect:hover {
+  fill: #00f3ff;
+  text-shadow: 0 0 15px #00f3ff;
+}
+
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+  text-shadow: 0 0 15px #00f3ff;
+}
+*a{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+
+
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: 100vh;
+  background: #18191f;
+  flex-direction:column;
+  min-height: 100vh;
+}
+ul{
+  position:relative;
+  display: flex;
+  margin: 10px 0;
+
+}
+ul li {
+  position: relative;
+  list-style: none;
+}
+
+ul li a{
+  display: block;
+  width: 50px;
+  height: 50px;
+  background:#18191f;
+  line-height: 55px;
+  text-align: center;
+  margin: 0 10px;
+  border: 2px solid  #00f3ff;
+  border-radius: 15px;
+  box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.05),
+              3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+ul li a .svg-icon{
+  font-size: 25px;
+  background-color:;
+}
+
+ul li a:hover .svg-icon{
+  fill: #00f3ff;
+  text-shadow: 0 0 15px ##00f3ff;
+}
