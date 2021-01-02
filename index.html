@@ -266,26 +266,31 @@ Nairobi, kahawa</div>
   <div class="column right">
       <div class="text" placeholder="message me">
         </div>
-          <form action="#">
+      
+      
+          <form action="index.php" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="name" placeholder="Name" required>
                             </div>
 <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email" required>
                             </div>
 </div>
 <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
                         </div>
 <div class="field textarea">
 
-<textarea name="email" rows="8" cols="80"></textarea>
+<textarea name="comment" name="email" rows="8" cols="80"></textarea>
 </div>
 <div class="button">
-                            <button type="submit">Send message</button>
+                            <button name="submit" type="submit">Send message</button>
                         </div>
 </form>
+      
+      
+      
 </div>
 </div>
 </div>
