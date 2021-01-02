@@ -1,6 +1,6 @@
 <?php
 
-$to = "patpal4089@gmail.com";
+$to = "patkia911@gmail.com";
 $subject = "email from my website:$sebject";
 
 
